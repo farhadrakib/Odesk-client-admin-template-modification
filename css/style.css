@@ -1,0 +1,118 @@
+/*
+ * HeatMapTracker
+ * (c) 2013. HeatMapTracker 
+ * http://HeatMapTracker.com
+ */
+.tab-content-main {
+	border-left: 1px solid #DDD !important;
+	border-right: 1px solid #DDD !important;
+	padding-bottom: 10px;
+}
+
+.help-ico {
+	display: inline-block;
+	width: 21px;
+	height: 25px;
+	background: url(../images/help.png) no-repeat 0 0;
+	text-indent: -9999px;
+	overflow: hidden;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+.att {
+	background: url(../images/att.png) no-repeat 0 0;
+}
+
+a:hover.help-ico {
+	background-position: 0 100%;
+}
+
+.more-to-right {
+	margin-left: 45px;
+}
+
+.current-page {
+	width: auto !important;
+	margin: 0 !important;
+}
+
+#pane2 table,
+#pane2 table td,
+.widefat thead tr th,
+.widefat tfoot tr th,
+.control-group label {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif !important;
+	font-size: 13px;
+}
+
+.widefat thead tr th,
+.widefat tfoot tr th,
+.control-group label {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+tr td.column-os_version {
+	text-transform: lowercase;
+}
+
+.widefat .btn-mini {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	line-height: 1px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	height: auto !important;
+}
+
+.rating {
+	line-height: 16px;
+}
+
+.rating .progress {
+	height: 26px;
+	position: relative;
+}
+
+.rating .progress a:hover {
+	text-decoration: none;
+}
+
+.rating .progress a {
+	position: absolute;
+	font-size: 13px;
+	left: 5px;
+	top: 5px;
+	white-space: nowrap;
+}
+
+.rating .progress a.l-down {
+	color: #fff;
+}
+
+.rating .progress .bar {
+	position: relative;
+	overflow: hidden;
+}
+
+table th {
+	text-align: left;
+}
